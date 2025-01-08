@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-echochronicles-dev-6802a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492073135:role/amplify-echochronicles-dev-6802a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492073135:role/amplify-echochronicles-dev-6802a-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-echochronicles-dev-6802a-deployment",
+      "UnauthRoleName": "amplify-echochronicles-dev-6802a-unauthRole",
+      "StackName": "amplify-echochronicles-dev-6802a",
+      "StackId": "arn:aws:cloudformation:us-east-1:381492073135:stack/amplify-echochronicles-dev-6802a/19f24cf0-cdb1-11ef-be98-0affc962a52f",
+      "AmplifyAppId": "d14ws5tx67gbr4"
+    }
+  }
+}
