@@ -24,9 +24,9 @@ Global Events:
 
 Large-scale, server-triggered events (e.g., invasions, world resets) are powered by Amazon EventBridge and involve all active players.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+**
 AWS Services Integration:
-Core Components:
+Core Components:**
 Amazon Bedrock:
 
 NPC and Quest Generation: Generate unique characters, quests, and dialogue dynamically using generative AI models.
