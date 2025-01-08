@@ -3,10 +3,17 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm cache clean --force
+        # Set npm configurations
         - npm config set registry https://registry.npmjs.org/
         - npm config set strict-ssl false
-        - npm install --network-timeout=1000000
+        - npm config set fetch-retries 5
+        - npm config set fetch-retry-factor 2
+        - npm config set fetch-retry-mintimeout 15000
+        - npm config set fetch-retry-maxtimeout 120000
+        # Clear cache
+        - npm cache clean --force
+        # Try installation with retries
+        - for i in 1 2 3; do npm ci --prefer-offline --no-audit && break || sleep 15; done
     build:
       commands:
         - npm run build
