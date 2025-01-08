@@ -6,7 +6,7 @@ frontend:
         - npm cache clean --force
         - npm config set registry https://registry.npmjs.org/
         - npm config set strict-ssl false
-        - npm install --network-timeout 1000000
+        - npm install --network-timeout=1000000
     build:
       commands:
         - npm run build
