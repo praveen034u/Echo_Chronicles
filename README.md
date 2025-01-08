@@ -27,6 +27,7 @@ Large-scale, server-triggered events (e.g., invasions, world resets) are powered
 **
 AWS Services Integration:
 Core Components:**
+
 Amazon Bedrock:
 
 NPC and Quest Generation: Generate unique characters, quests, and dialogue dynamically using generative AI models.
